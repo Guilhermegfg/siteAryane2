@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 169, 170);
+}
+
+header {
+    height: 550px;
+    background-image: url(./assets/jaleco.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 3px;
+}
+
+header p {
+    margin-bottom: 30px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 206, 27);
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 30%;
+}
+
+header a img {
+    width: 20px;
+}
+
+header a span {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/*main*/
+
+
+#descricao {
+    height: 1201px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(158, 169, 170);
+    padding: 5% 3%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#descricao h2 {
+    font-size: 40px;
+    margin-bottom: 29.5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40.5px;
+    margin-top: 50px;
+    
+}
+
+#fotoRedonda {
+    width: 70%;
+    height: 331px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+#descricao p {
+    width: 90%;
+    margin-bottom: 14.39px;
+
+    font-family: "Quando", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1.1px;
+}
+
+
+#linkdesc {
+    margin-top: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+#linkdesc a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 206, 27);
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30%;
+    height: 50px;
+}
+
+#linkdesc a img {
+    width: 20px;
+}
+
+#linkdesc a span {
+    padding: 5px;
+}
+
+
+
+
+/*tratamentos*/
+
+#tratamentos {
+    height: 3850px;
+    background-color: rgba(117, 162, 200, 0.88);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#tratamentos h2 {
+    color: #576378;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40.5px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    
+    border-radius: 40px;
+    
+}
+
+.container p {
+    color: #4E586B;
+    text-align: center;
+    font-family: Quando;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.imagem {
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+#sensibilidade{
+    width: 300px;
+}
+
+#resina {
+    width: 225px;
+}
+
+
+
+/*footer*/
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: rgb(255, 199, 232);
+
+}
+
+footer h2 {
+    color: #576378;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40.5px;
+
+    margin-top: 50px;
+    margin-bottom: 63px;
+}
+
+footer h6 {
+    color: #576378;
+    font-family: "Quando", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.8px;
+    margin-bottom: 64px;
+}
+
+#span {
+    color: #576378;
+    font-family: "Quando", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.6px;
+
+    margin-top: -38px;
+}
+
+#fotoRedonda2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#linkfooter {
+    margin-top: -30px;
+    margin-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+    
+
+#linkfooter a {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 206, 27);
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+
+}
+
+#linkfooter a img{
+    width: 20px;
+}
+
+#linkfooter a span {
+    padding: 5px;
+}
+
+#informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#informacoes p {
+    margin-bottom: 0;
+    color: #576378;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.6px;
+}
+
+footer h2 {
+    color: #576378;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40.5px;
+    margin-bottom: 26px;
+}
+
+footer h3 {
+    color: #576378;
+    font-family: "Quando", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin-bottom: 18px;
+}
+
+#contato p {
+    color: #000;
+    font-family: "Quando", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+
+    margin-bottom: 24px;
+}
+
+footer h4 {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#encontre {
+   margin-bottom: 30px;
+    
+}
+
+#maps {
+    height: 600px;
+    width: 90%;
+    display: flex;
+
+}

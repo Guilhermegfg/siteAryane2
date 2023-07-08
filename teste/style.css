@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 550px;
+    background-image: url(../assets/jaleco.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 3px;
+}
+
+header p {
+    margin-bottom: 30px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: #00ce1b;
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 30%;
+}
+
+header a img {
+    width: 20px;
+}
+
+header a span {
+    padding: 5px;
+}
